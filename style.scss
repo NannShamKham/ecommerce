@@ -27,13 +27,16 @@ p{
   width: 45px ;
   height: 45px;
 }
+.spacer{
+  height: 30px;
+}
 
 .img{
   background-image: url("images/image-product-4-thumbnail.jpg");
   background-size: 100%;
-
   transition: 0.5s;
 }
+
 .img:hover{
   background-color: red !important;
   z-index: 1001;
